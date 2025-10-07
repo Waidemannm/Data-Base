@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6D05D0B-F394-0BC7-4AAC-9FB88C0572D5" name="T_HC_MEDICAMENTO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>2E18F298-1660-4031-7A11-CE2B3F1A1D8E</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MEDICAMENTO" id="F9352873-8B74-AA26-FF3B-31D1B6F2629F">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>9EB2846E-6253-8634-269F-566DB3620AEC</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRESCRICAO_MEDICA" id="3B6BAFD5-BC97-3DBD-FEDA-48232ACDA103">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>D8186F90-D9AD-844A-C518-198D8A392C45</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC6B6727-BFEA-2DC7-E7EA-F9AFB088FCA1" referredColumn="AD320070-6B6C-8D04-0EA9-18352BC7B105"/>
+</associations>
+</Column>
+<Column name="NM_MEDICAMENTO" id="191D6B29-F82C-9B28-7E8B-E068A3F1023B">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>1EFA51B8-07FC-F65C-A522-5F1006331841</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_DETALHADA_MEDICAMENTO" id="D511A450-C1E7-0469-F9BE-0C08898D60E7">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>BB980648-282B-B983-1037-8FDFBC83F797</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EF9BCB2-7C7F-DDEF-B950-28C42A665FF2" name="T_HC_MEDICAMENTO_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>6B558C82-D2DC-968E-E626-1D176FD00C72</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9352873-8B74-AA26-FF3B-31D1B6F2629F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FABCDBC-C40B-C00C-3FE9-EA63BCA6C2AB" name="T_HC_MEDICAMENTO__IDX">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>876694DD-6F96-3749-D89A-AE1D1EAFC3FE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3B6BAFD5-BC97-3DBD-FEDA-48232ACDA103"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="530B6A2A-D516-8322-05C2-B43B9B685689" name="PRESCRICAO_MEDICA_MEDICAMENTO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>876694DD-6F96-3749-D89A-AE1D1EAFC3FE</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B6BAFD5-BC97-3DBD-FEDA-48232ACDA103"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOGRADOURO_BAIRRO" directorySegmentName="seg_0" id="C1398594-191F-B0A3-F695-0D0FEA415296">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-07 19:14:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<sourcePk>E22C011E-B4E9-62DA-C76F-A7907987A7C5</sourcePk>
+<targetPk>66354590-DA6B-E816-1E78-2C22FF2EA01C</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2BB18031-5482-43C3-F669-D8017CDB9923</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6169FE54-623C-61AC-96FC-3D584484C064</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

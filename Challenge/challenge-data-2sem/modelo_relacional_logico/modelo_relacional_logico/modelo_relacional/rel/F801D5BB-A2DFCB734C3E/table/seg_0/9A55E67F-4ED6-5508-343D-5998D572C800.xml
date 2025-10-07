@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A55E67F-4ED6-5508-343D-5998D572C800" name="T_HC_CONSULTA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>7B3463E7-990C-93B8-53E4-F2D873505041</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSULTA" id="9F98533D-ED5B-E2B3-D534-6ABECF59FB11">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>007CAEE2-B4B6-C553-1F49-A879785F91E7</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_STATUS" id="5D604A77-8C2C-4CDB-16DD-778FB0100713">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>989738AD-778E-E1E9-BD63-0B0F3E360018</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A60AC66-1A3A-7B83-1E51-DD16424198FC" referredColumn="EE8E8A89-7093-C960-AB64-21128A0B0C3A"/>
+</associations>
+</Column>
+<Column name="ID_UNIDADE" id="3DD48C1F-0352-67BE-BC8B-A6F1E7FF740C">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>9AA21555-CA16-7C86-AAE1-7899A8A20F33</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7BEA65E-2EF9-4724-74D0-1701D2655B48" referredColumn="7AA407C3-BAAA-2479-E757-A2B012137AB8"/>
+</associations>
+</Column>
+<Column name="ID_PACIENTE" id="1A197513-6343-8C53-762A-4498823AA37F">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>61F3D60E-04C1-C3F5-D7B5-B638AECF02CB</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4BF3F13-F128-C8A6-182D-88A195D884D2" referredColumn="FFD37B75-DE4A-201B-3C3E-FCC0B3092585"/>
+</associations>
+</Column>
+<Column name="ID_MEDICO" id="A530A14E-8E39-357E-98F8-0E45E080229D">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>1CB7F632-A995-25C7-A489-02F4AB9106B9</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD3A7A22-F6A2-BE72-45B8-F21FC7EDA331" referredColumn="1DA817C6-BF88-C632-FF3F-6898F7EC4DD6"/>
+</associations>
+</Column>
+<Column name="DS_CONSULTA" id="B82308A6-CE5C-5842-37FD-D27EB531782F">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>DEE2C947-9E45-2763-9443-CB21B8E4026A</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC004581-85D2-B95D-B9AC-A1905ACBB1DB" name="T_HC_CONSULTA_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>6A8D7528-F595-BC91-0382-0808E7967DD7</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F98533D-ED5B-E2B3-D534-6ABECF59FB11"/>
+<colUsage columnID="3DD48C1F-0352-67BE-BC8B-A6F1E7FF740C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="399C64C0-8D71-A44E-09B2-61611B7D94E3" name="T_HC_CONSULTA__IDX">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9BE3FD85-658B-5B0E-7C3B-3FBE04BF5525</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5D604A77-8C2C-4CDB-16DD-778FB0100713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA9E9C86-6562-4144-3641-957365985DFD" name="CONSULTA_MEDICO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>110E53E3-2DCB-F129-EA05-B3C569594326</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A530A14E-8E39-357E-98F8-0E45E080229D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1236DD5-0CA4-6FC3-AF4E-A7F384A0F0E9" name="CONSULTA_STATUS">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>9BE3FD85-658B-5B0E-7C3B-3FBE04BF5525</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D604A77-8C2C-4CDB-16DD-778FB0100713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4ED7016-0BB3-64C5-7B6F-EAFC125697FA" name="PACIENTE_CONSULTA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>CC243D9C-5595-0CB8-69B5-C081A0ADDCFB</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A197513-6343-8C53-762A-4498823AA37F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7504D0F5-A740-ADAD-3749-5400C5D3E079" name="UNIDADE_CONSULTA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>2D77A080-D935-15FA-1AA6-2EDCF3CABCCF</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DD48C1F-0352-67BE-BC8B-A6F1E7FF740C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

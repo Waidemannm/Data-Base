@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C227A511-A024-0C01-0B8D-BE7F2AC0A605" name="T_HC_ESTADO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>058CCDB7-8452-7969-CCF8-307F9A743568</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO" id="C62A0ADC-1416-7027-4F90-7654AADF5B80">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>C3B5AF70-D1FA-D8EE-587F-3185BF3604AD</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ESTADO" id="051D198D-C272-3400-9E1C-8AB42A3DDF71">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>7577073C-8233-996D-9456-5D8628947C4E</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SG_ESTADO" id="5E2B0F64-F5CF-2E9B-D32E-3B3C88734FFD">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>DDAC21D5-50EF-9A23-22F0-0EFDAFA0D8FB</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="AC" description=""/>
+<valueDef value="AL" description=""/>
+<valueDef value="AM" description=""/>
+<valueDef value="AP" description=""/>
+<valueDef value="BA" description=""/>
+<valueDef value="CE" description=""/>
+<valueDef value="DF" description=""/>
+<valueDef value="ES" description=""/>
+<valueDef value="GO" description=""/>
+<valueDef value="MA" description=""/>
+<valueDef value="MG" description=""/>
+<valueDef value="MS" description=""/>
+<valueDef value="MT" description=""/>
+<valueDef value="PA" description=""/>
+<valueDef value="PE" description=""/>
+<valueDef value="PI" description=""/>
+<valueDef value="PR" description=""/>
+<valueDef value="RJ" description=""/>
+<valueDef value="RN" description=""/>
+<valueDef value="RO" description=""/>
+<valueDef value="RR" description=""/>
+<valueDef value="RS" description=""/>
+<valueDef value="SC" description=""/>
+<valueDef value="SE" description=""/>
+<valueDef value="SP" description=""/>
+<valueDef value="TO" description=""/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B998792-E493-D176-FD5C-E0A9A1A69B73" name="T_HC_ESTADO_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>712F7263-27AB-BD4A-4B03-4EF53D1BDF62</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C62A0ADC-1416-7027-4F90-7654AADF5B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

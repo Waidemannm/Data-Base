@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23664E79-FA3E-8A27-CC15-CD5F27FF6540" name="T_PET_TIPO_CONTATO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:06:56 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TIPO_CONTATO" id="B04ED9D5-8072-7DA1-E360-222ABFBA3D7F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:07:48 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_TIPO_CONTATO" id="1A7A9E63-48FD-367F-342B-188CC79E1CDC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:08:41 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="F19C41D1-0943-77FB-5F9B-D1BBF33C20A6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:09:02 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="46607E2F-862D-C2D8-A50A-4BCCE17D67FF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:09:12 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8478EAC-8D82-BAFF-2D5F-AEB1D71C45CD" name="T_PET_TIPO_CONTATO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:07:24 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B04ED9D5-8072-7DA1-E360-222ABFBA3D7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

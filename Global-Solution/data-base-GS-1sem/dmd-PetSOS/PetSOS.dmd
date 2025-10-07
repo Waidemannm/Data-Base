@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PetSOS" id="E825577B-C6C3-C78B-D778-2A9BC0854019" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 11:46:20 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E825577B-C6C3-C78B-D778-2A9BC0854019</designId>
+</OSDM_Design>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PACIENTE_LOGRADOURO" directorySegmentName="seg_0" id="EEAF9551-ED88-EC66-A790-BE207AE4F69D">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-06 15:51:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<sourcePk>24CC9FFD-6C76-8B1B-D332-55282519EAFC</sourcePk>
+<targetPk>E22C011E-B4E9-62DA-C76F-A7907987A7C5</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DCDE6699-5329-EAF0-F070-B54763BE8210</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2BB18031-5482-43C3-F669-D8017CDB9923</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

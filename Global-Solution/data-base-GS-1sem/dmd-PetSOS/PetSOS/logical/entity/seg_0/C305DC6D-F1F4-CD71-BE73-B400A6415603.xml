@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C305DC6D-F1F4-CD71-BE73-B400A6415603" name="T_PET_ANIMAL_ENCONTRADO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:39:11 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENCONTRADO" id="CCF559AC-1C6C-746F-B07B-4CC5FFCCE9C2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:39:25 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENDERECO" id="1B961A5C-9864-96F1-126B-86E5ECB000DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:46:13 UTC</createdTime>
+<generatorID>038251F0-A3F9-9B9F-A128-13FB7F4399FC</generatorID>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<referedAttribute>646CC9CC-BDFB-B0B8-8FC0-E8AD2E5C9CEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PORTE" id="3EA775DD-D02B-7B7E-B8C5-869BB617F07D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:39:46 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COR" id="58AD0787-A0BB-FF98-DFF9-B991451234C5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:40:12 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_RACA" id="3E48FD99-3911-56F2-0ACD-2D5700A5DB09">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:40:28 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5AE0838-7CB6-BA7F-8F9C-2B6F91CDE820" name="T_PET_ANIMAL_ENCONTRADO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:39:35 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCF559AC-1C6C-746F-B07B-4CC5FFCCE9C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

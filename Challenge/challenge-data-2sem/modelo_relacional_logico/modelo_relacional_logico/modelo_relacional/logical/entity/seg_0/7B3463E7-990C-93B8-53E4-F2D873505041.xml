@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B3463E7-990C-93B8-53E4-F2D873505041" name="T_HC_CONSULTA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:29:28 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA" id="007CAEE2-B4B6-C553-1F49-A879785F91E7">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:29:39 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_STATUS" id="989738AD-778E-E1E9-BD63-0B0F3E360018">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-06 18:25:37 UTC</createdTime>
+<generatorID>9BE3FD85-658B-5B0E-7C3B-3FBE04BF5525</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<referedAttribute>6F98761B-A358-FB77-4DD3-5C579AC6DD89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNIDADE" id="9AA21555-CA16-7C86-AAE1-7899A8A20F33">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-06 18:01:28 UTC</createdTime>
+<generatorID>2D77A080-D935-15FA-1AA6-2EDCF3CABCCF</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<referedAttribute>149FD3FC-956A-C958-F7C6-A77FD7D0B41E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="61F3D60E-04C1-C3F5-D7B5-B638AECF02CB">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-07 18:50:36 UTC</createdTime>
+<generatorID>CC243D9C-5595-0CB8-69B5-C081A0ADDCFB</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<referedAttribute>51603DAC-79A9-DD06-1824-FE8F0FDFF629</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MEDICO" id="1CB7F632-A995-25C7-A489-02F4AB9106B9">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-08 00:40:29 UTC</createdTime>
+<generatorID>110E53E3-2DCB-F129-EA05-B3C569594326</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<referedAttribute>54EDA8B9-04F0-02C5-A04C-688CA0AE16EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_CONSULTA" id="DEE2C947-9E45-2763-9443-CB21B8E4026A">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:32:27 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A8D7528-F595-BC91-0382-0808E7967DD7" name="T_HC_CONSULTA_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:29:57 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>007CAEE2-B4B6-C553-1F49-A879785F91E7</attributeRef>
+<attributeRef>9AA21555-CA16-7C86-AAE1-7899A8A20F33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCDE6699-5329-EAF0-F070-B54763BE8210" name="T_HC_PACIENTE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 18:24:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PACIENTE" id="51603DAC-79A9-DD06-1824-FE8F0FDFF629">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 18:25:15 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="0F6AEB10-A0B5-2AEF-D45A-24A7EB8E52A9">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:11:46 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LOGRADOURO" id="7EC0871D-A26A-300E-037E-3B0B67B88B56">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-06 15:52:17 UTC</createdTime>
+<generatorID>EEAF9551-ED88-EC66-A790-BE207AE4F69D</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<referedAttribute>E415A2BA-EBAE-C4A4-5602-96CC24BFCA97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PACIENTE" id="B197D507-95F8-A0D2-16A8-DED861B87E19">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 18:26:58 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="79878401-4B93-1D84-BD4C-298FBCB4F873">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:12:24 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24CC9FFD-6C76-8B1B-D332-55282519EAFC" name="T_HC_PACIENTE_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 18:25:20 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51603DAC-79A9-DD06-1824-FE8F0FDFF629</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="CFB9F988-8463-57E9-10D8-BBA1E2B98FB0" name="T_HC_PACIENTE_NR_CPF_UN">
+<createdBy>Thiago</createdBy>
+<createdTime>2025-08-28 00:27:20 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="F801D5BB-6096-1D68-3BD9-A2DFCB734C3E" value="true"/>
+</engineerTo>
+<newElementsIDs>0F6AEB10-A0B5-2AEF-D45A-24A7EB8E52A9</newElementsIDs>
+<usedAttributes>
+<attributeRef>0F6AEB10-A0B5-2AEF-D45A-24A7EB8E52A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="186BC121-B27F-103A-A197-803189CED0BC" name="T_HC_STATUS">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:33:28 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_STATUS" id="6F98761B-A358-FB77-4DD3-5C579AC6DD89">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:33:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_STATUS" id="9632A3FA-9456-E636-F596-ADDF27F983F7">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:33:47 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<constraintName>CK_NM_STATUS</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="A consulta está confirmada" description=""/>
+<valueDef value="A consulta está pendente" description=""/>
+<valueDef value="A consulta foi desmarcada" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A856B025-47AF-0487-3E7E-1C4A6DC51215" name="T_HC_STATUS_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 19:33:46 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F98761B-A358-FB77-4DD3-5C579AC6DD89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

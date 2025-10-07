@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07782671-D3A2-7FCB-3A5A-69CD87E1BCF4" name="T_HC_CONFIRMACAO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:48:25 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONFIRMACAO" id="AB35DE2C-5A81-67F1-155F-840CB876D428">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:48:37 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CONSULTA" id="29CECAFD-1720-B63F-A5F0-86197FA2C464">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-09 00:00:42 UTC</createdTime>
+<generatorID>97C5FF1B-9029-C959-D9CD-642222925B8B</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<referedAttribute>A598FDC9-585E-FB02-488C-A7331AD5C4B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CONFIRMACAO" id="BAEC11D8-68AC-0D79-DA2A-7CFBDF52A68C">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:48:52 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="5FC0AE40-6D38-7064-8006-AF58545C4630">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:49:04 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36084F93-8037-8795-61E0-42C0DB9F2F4E" name="T_HC_CONFIRMACAO PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:48:50 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB35DE2C-5A81-67F1-155F-840CB876D428</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

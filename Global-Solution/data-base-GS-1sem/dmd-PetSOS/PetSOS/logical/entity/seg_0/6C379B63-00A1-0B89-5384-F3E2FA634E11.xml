@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C379B63-00A1-0B89-5384-F3E2FA634E11" name="T_PET_ENDERECO_ANIMAL_ENCONTRADO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:42:19 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="646CC9CC-BDFB-B0B8-8FC0-E8AD2E5C9CEB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:43:02 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="0B6B782A-83E5-9BE4-2D1F-C301010DD67D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:43:17 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_LOGRADOURO" id="E10C2A88-5684-015A-E819-A9DA1C27739D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:43:37 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="94A68889-2C2C-8130-C3BC-A7C37633F0AF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:44:07 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="3E638DCE-4C1F-298D-CCE2-887609DB1DE9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:44:30 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="6FC84F8A-4F87-FB80-A805-78945888C3C8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:45:17 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="BC2EBAC7-899E-19B9-E2C0-6B984BDAF542">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:45:40 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C8670F8-E5C1-6864-2135-DA73A281CE07" name="T_PET_ENDERECO_ANIMAL_ENCONTRADO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:43:14 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>646CC9CC-BDFB-B0B8-8FC0-E8AD2E5C9CEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

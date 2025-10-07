@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRESCRICAO_MEDICA_MEDICAMENTO" directorySegmentName="seg_0" id="876694DD-6F96-3749-D89A-AE1D1EAFC3FE">
+<createdBy>Thiago</createdBy>
+<createdTime>2025-08-28 00:24:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<sourcePk>6B558C82-D2DC-968E-E626-1D176FD00C72</sourcePk>
+<targetPk>FD35ECBD-B8B1-1240-2EB6-5291BB0E048F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E18F298-1660-4031-7A11-CE2B3F1A1D8E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2C3D89E1-EBB5-F1F2-EF91-A4E110846955</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

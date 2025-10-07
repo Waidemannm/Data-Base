@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6169FE54-623C-61AC-96FC-3D584484C064" name="T_HC_BAIRRO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-07 19:11:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_BAIRRO" id="41D719C3-0AC0-0A10-4F16-AB287B1EF87F">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-07 19:11:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<importedID>65144ABB-0C0B-9173-0AF7-77AAEE536FC9</importedID>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIDADE" id="306F822E-6364-4E90-6B9D-91A3A6A4CEE5">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-07 19:17:14 UTC</createdTime>
+<generatorID>B3018CCA-4771-F3B6-87BE-01A99C7AF393</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<referedAttribute>01D3A676-3A15-1340-4A48-50D4BB3B1F21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="D30F2370-D17D-077B-7319-3A8E8215A0A3">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-07 19:11:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<importedID>EAE57E4A-6C59-6C00-B36F-E3AE65B2227F</importedID>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ZONA_BAIRRO" id="EB53931F-25E2-F5B9-83CB-58AA5742DDED">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-07 19:11:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<importedID>01DCD967-831B-5AF5-61EA-33D2E8A015F5</importedID>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66354590-DA6B-E816-1E78-2C22FF2EA01C" name="T_HC_BAIRRO PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-07 19:11:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2B49FE95-B039-887B-1A92-CFD8C5B3D215" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41D719C3-0AC0-0A10-4F16-AB287B1EF87F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

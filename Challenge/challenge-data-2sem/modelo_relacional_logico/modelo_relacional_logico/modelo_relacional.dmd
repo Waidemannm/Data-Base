@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_relacional" id="DAB910AC-B027-A3CC-15ED-2BF97D85DCDC" version="3.5">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-08-27 18:23:32 UTC</createdTime>
+<ownerDesignName>modelo-relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DAB910AC-B027-A3CC-15ED-2BF97D85DCDC</designId>
+</OSDM_Design>

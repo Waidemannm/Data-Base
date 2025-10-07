@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E2BBC14-F77E-9D77-4F0A-F8681E8DA336" name="T_HC_CONSULTA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:44:56 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA" id="A598FDC9-585E-FB02-488C-A7331AD5C4B1">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:45:02 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACENTE" id="4200CDE0-FA56-6D16-0073-BD907E365E85">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-09 00:00:14 UTC</createdTime>
+<generatorID>1317F9FB-59F0-7F86-C5E1-655CA0DE96C0</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<referedAttribute>F60813D7-84B0-3C2C-58B5-EAB860EA1C1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNIDADE" id="991A2A37-B096-8EA2-922B-23652D52E039">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-09 00:01:26 UTC</createdTime>
+<generatorID>9AB6D33C-914A-0578-BB97-79CE434875A8</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<referedAttribute>A3A03C47-52C5-F2F3-444F-A07C8D600680</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CONSULTA" id="A648680B-F381-A578-F5E2-10DB5A0FA639">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:45:24 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_HORA" id="63C86CB9-2A39-F9FC-1DF4-CD23D3590C0E">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:46:57 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3C4F939-1C95-79E8-0D36-37812387395A" name="T_HC_CONSULTA PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-05-08 23:45:23 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="A8E37F4B-13A5-8D0E-E4D6-4356A8F2EB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A598FDC9-585E-FB02-488C-A7331AD5C4B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

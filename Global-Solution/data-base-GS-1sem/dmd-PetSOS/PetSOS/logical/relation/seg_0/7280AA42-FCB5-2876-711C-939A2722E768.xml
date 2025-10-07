@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="7280AA42-FCB5-2876-711C-939A2722E768">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-27 12:03:10 UTC</createdTime>
+<ownerDesignName>PetSOS</ownerDesignName>
+<engineerTo>
+<item key="53A6596C-3E48-BB7C-F305-27E12C8DA960" value="true"/>
+</engineerTo>
+<sourcePk>27EAEA71-6363-1EBE-E0AF-43E7552436E2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>243672F7-D639-F11B-FA86-E47004C3EDA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>579B3526-C489-16A5-7754-4EC28968D610</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

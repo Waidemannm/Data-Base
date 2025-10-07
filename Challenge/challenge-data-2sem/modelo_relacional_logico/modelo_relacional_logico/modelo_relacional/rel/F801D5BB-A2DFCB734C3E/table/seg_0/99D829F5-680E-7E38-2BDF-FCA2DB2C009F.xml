@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99D829F5-680E-7E38-2BDF-FCA2DB2C009F" name="T_HC_PRESCRICAO_MEDICA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>2C3D89E1-EBB5-F1F2-EF91-A4E110846955</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRESCRICAO_MEDICA" id="AD320070-6B6C-8D04-0EA9-18352BC7B105">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>F7D03EC3-0DF1-E2B9-E192-C67856AF21F6</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_DESCRICAO" id="569595C7-48A3-B68A-1B99-85BCC76D11CB">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>5FC5BBCA-35B5-EE80-51F8-906CC4A905CA</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CONSULTA" id="7802C6D1-6531-68ED-D1EE-E68C53DBB794">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>9CA178D2-7A25-BBAC-5E2E-C6FF98813DF6</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B530E68-1532-1F9F-A384-036106D129FA" referredColumn="9F98533D-ED5B-E2B3-D534-6ABECF59FB11"/>
+</associations>
+</Column>
+<Column name="ID_UNIDADE" id="3377EDAE-A79C-D870-8D95-1C775D92E7AA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>CAFB12D3-1B6D-796C-1D31-0AC6455A00B9</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B530E68-1532-1F9F-A384-036106D129FA" referredColumn="3DD48C1F-0352-67BE-BC8B-A6F1E7FF740C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75FB71AF-DADC-95C0-DFAF-00B007C6AECA" name="T_HC_PRESCRICAO_MEDICA_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>FD35ECBD-B8B1-1240-2EB6-5291BB0E048F</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD320070-6B6C-8D04-0EA9-18352BC7B105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FB77C5C-EAC8-932C-4F1F-E0BBA32E0DE6" name="CONSULTA_PRESCRICAO_MEDICA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-09-16 10:55:32 UTC</createdTime>
+<generatorID>526884C2-CE17-CC1C-E9E5-344611A454F1</generatorID>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7802C6D1-6531-68ED-D1EE-E68C53DBB794"/>
+<colUsage columnID="3377EDAE-A79C-D870-8D95-1C775D92E7AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
