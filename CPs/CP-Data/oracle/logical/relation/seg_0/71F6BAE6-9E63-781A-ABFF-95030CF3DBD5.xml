@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pac_tel" directorySegmentName="seg_0" id="71F6BAE6-9E63-781A-ABFF-95030CF3DBD5">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:50:28 UTC</createdTime>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<sourcePk>76EAE953-4238-B3C9-6AE9-0FB78C130039</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8971674A-5EA4-FB1D-80CB-8989881781A6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A6C3B0C-EBE3-E2FF-A873-ED8323FE32D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

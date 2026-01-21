@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11FCCC71-1B4D-AE5F-7564-A9E08B1153F4" name="T_PACIENTE_PLANO_DE_SAUDE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:29:45 UTC</createdTime>
+<comment><![CDATA[Entidade para fazer a relação entre Paciente e Plano de saúde.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pac_plan" id="ECFCE2F9-B093-3452-F322-A0080F9497ED">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:33:53 UTC</createdTime>
+<comment><![CDATA[Atributo identificador da entidade que  faz ligação do paciente com plano de saúde.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data_de_inicio" id="074A8AA7-5004-27B4-5127-331858FD14DF">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:33:19 UTC</createdTime>
+<comment><![CDATA[Atributo que marca a data de inicio da relação da entidade Paciente e entidade Plano de saúde.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data_de_termmino" id="C3087042-AC31-3DEE-ACB4-D7676050AF1F">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:34:14 UTC</createdTime>
+<comment><![CDATA[Atributo que marca a data de termino da relação da entidade Paciente e entidade Plano de saúde.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="4A4DBC8D-8AB3-DA38-5ECF-B14C3597C5CE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:12:28 UTC</createdTime>
+<comment><![CDATA[Um número de 10 digitos para indentificar de forma única e segura a entidade Paciente.]]></comment>
+<generatorID>A6B86B26-34AA-ABFE-C57C-F3897E586841</generatorID>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<referedAttribute>09B209B1-1CA5-D598-5741-00D5B4E5499D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plano" id="D51C211A-F15C-74AE-A4E9-7E2808636218">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:16:16 UTC</createdTime>
+<comment><![CDATA[Um número de 10 digitos para indentificar de forma única e segura a entidade Endereço.]]></comment>
+<generatorID>E1424B0C-CEBE-E4FB-0D33-CF301622DE7D</generatorID>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<referedAttribute>C35D4B4B-5087-3FF9-4E1A-7D0CE08647CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

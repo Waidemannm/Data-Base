@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="765194CF-84E5-79AF-FE97-CC9A3822491A" name="T_CONTATO_EMERGENCIA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:09:39 UTC</createdTime>
+<comment><![CDATA[Entidade responsável por armazenar os dados de contatos de emergência associados a um paciente ou usuário, utilizados em casos de urgência médica ou situações imprevistas.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contato" id="FD2EC54B-68C2-8593-A6CC-93AA94D722E8">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:12:19 UTC</createdTime>
+<comment><![CDATA[Identificador único do contato de emergência. Chave primária da entidade.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="51511369-C30C-D3DA-78FA-94C088F47F02">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:13:34 UTC</createdTime>
+<comment><![CDATA[Nome completo do paciente, conforme documento de identificação.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_contato" id="C6CDAB68-00B1-C61E-2CA1-04AB5B7E5DFE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:14:31 UTC</createdTime>
+<comment><![CDATA[Tipo de vínculo do contato com o paciente, como pai, mãe, cônjuge, amigo, entre outros.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="E94DF6EE-5FFE-E80F-737A-01DCCD184D53">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:50:02 UTC</createdTime>
+<comment><![CDATA[Um número de 10 digitos para indentificar de forma única e segura a entidade Paciente.]]></comment>
+<generatorID>675A35B4-9F17-4275-6850-768DA4D30647</generatorID>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<referedAttribute>09B209B1-1CA5-D598-5741-00D5B4E5499D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4785F84B-C15D-3983-D162-4DA1FEA24572" name="CONTATO_EMERGENCIA PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:13:19 UTC</createdTime>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD2EC54B-68C2-8593-A6CC-93AA94D722E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

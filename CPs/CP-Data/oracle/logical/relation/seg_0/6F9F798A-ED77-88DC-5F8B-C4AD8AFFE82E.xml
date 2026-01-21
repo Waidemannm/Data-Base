@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="emer_tel" directorySegmentName="seg_0" id="6F9F798A-ED77-88DC-5F8B-C4AD8AFFE82E">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:51:10 UTC</createdTime>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<sourcePk>4785F84B-C15D-3983-D162-4DA1FEA24572</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>765194CF-84E5-79AF-FE97-CC9A3822491A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A6C3B0C-EBE3-E2FF-A873-ED8323FE32D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

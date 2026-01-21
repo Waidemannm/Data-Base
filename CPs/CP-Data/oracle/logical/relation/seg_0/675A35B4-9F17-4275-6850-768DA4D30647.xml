@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pac_emer" directorySegmentName="seg_0" id="675A35B4-9F17-4275-6850-768DA4D30647">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:50:02 UTC</createdTime>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<sourcePk>76EAE953-4238-B3C9-6AE9-0FB78C130039</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8971674A-5EA4-FB1D-80CB-8989881781A6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>765194CF-84E5-79AF-FE97-CC9A3822491A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

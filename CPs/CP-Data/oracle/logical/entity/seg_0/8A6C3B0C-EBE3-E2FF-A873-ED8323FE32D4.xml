@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A6C3B0C-EBE3-E2FF-A873-ED8323FE32D4" name="T_TELEFONE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:20:13 UTC</createdTime>
+<comment><![CDATA[Entidade responsável por armazenar os números de telefone associados a pessoas, empresas ou contatos de emergência, incluindo informações como tipo de telefone (residencial, celular, comercial) e código de área.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefone" id="600BE395-4282-3AE8-9837-E52E4023527E">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:32:47 UTC</createdTime>
+<comment><![CDATA[Atributo identificador da entidade telefone.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_status" id="55871AE8-355E-8A37-648D-2B6C8633943A">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:25:26 UTC</createdTime>
+<comment><![CDATA[Atributo para definir o status do telefone, (Ativo ou Inativo).]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="09BE0540-A9AE-D364-67FF-97B17FC79F62">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:50:28 UTC</createdTime>
+<comment><![CDATA[Um número de 10 digitos para indentificar de forma única e segura a entidade Paciente.]]></comment>
+<generatorID>71F6BAE6-9E63-781A-ABFF-95030CF3DBD5</generatorID>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<referedAttribute>09B209B1-1CA5-D598-5741-00D5B4E5499D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contato" id="17CCBDA0-D310-29D5-B099-E09A6C7FE53C">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:51:10 UTC</createdTime>
+<comment><![CDATA[Identificador único do contato de emergência. Chave primária da entidade.]]></comment>
+<generatorID>6F9F798A-ED77-88DC-5F8B-C4AD8AFFE82E</generatorID>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<referedAttribute>FD2EC54B-68C2-8593-A6CC-93AA94D722E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plano" id="C68BDACD-7F3B-B65F-EC8F-04186F1904FE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 21:29:17 UTC</createdTime>
+<comment><![CDATA[Um número de 10 digitos para indentificar de forma única e segura a entidade Endereço.]]></comment>
+<generatorID>1B7AACB3-CF53-E53F-6EA4-E3C70A701C77</generatorID>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<referedAttribute>C35D4B4B-5087-3FF9-4E1A-7D0CE08647CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EBE1FB9-E479-B174-A7C6-5DFB4598342A" name="TELEFONE PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:25:58 UTC</createdTime>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>600BE395-4282-3AE8-9837-E52E4023527E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

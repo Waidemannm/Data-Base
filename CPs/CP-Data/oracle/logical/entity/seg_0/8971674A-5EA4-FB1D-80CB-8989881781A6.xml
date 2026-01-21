@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8971674A-5EA4-FB1D-80CB-8989881781A6" name="T_PACIENTE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 20:56:30 UTC</createdTime>
+<comment><![CDATA[Entidade responsável por armazenar dados do paciente.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="09B209B1-1CA5-D598-5741-00D5B4E5499D">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 21:03:07 UTC</createdTime>
+<comment><![CDATA[Um número de 10 digitos para indentificar de forma única e segura a entidade Paciente.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="246CE9CE-2602-8EC0-82AC-352CBA138D43">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 21:12:00 UTC</createdTime>
+<comment><![CDATA[Número do Registro Geral (RG) do paciente. Documento de identificação civil.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="883FD8A9-49AD-3886-6584-B4A535D6E3B4">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 21:14:56 UTC</createdTime>
+<comment><![CDATA[Cadastro de Pessoa Física (CPF) do paciente. Documento de identificação fiscal único no Brasil.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nome_do_paciente" id="4A1A39FA-E1EF-DD7E-3C16-8A8D3E3F89F9">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 21:16:48 UTC</createdTime>
+<comment><![CDATA[Nome completo do paciente, conforme documento de identificação.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data_de_nascimento" id="A94F9844-8F47-0A0B-0AC9-EA78D0E71ACC">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 22:23:24 UTC</createdTime>
+<comment><![CDATA[Data de nascimento da pessoa, utilizada para identificar a idade e validar restrições legais ou de acesso a determinados serviços.]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_email" id="6F6646F4-C1DF-9E8B-B6CC-44B4E0758B20">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 19:03:56 UTC</createdTime>
+<comment><![CDATA[Atributo responsável por armazenar os endereços de e-mail associados a usuários]]></comment>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76EAE953-4238-B3C9-6AE9-0FB78C130039" name="PACIENTE PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-16 21:03:27 UTC</createdTime>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>09B209B1-1CA5-D598-5741-00D5B4E5499D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

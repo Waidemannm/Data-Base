@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pac_pacplan" directorySegmentName="seg_0" id="A6B86B26-34AA-ABFE-C57C-F3897E586841">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-17 20:12:28 UTC</createdTime>
+<ownerDesignName>oracle</ownerDesignName>
+<engineerTo>
+<item key="F0D73942-549F-6182-7005-412852C5A3F9" value="true"/>
+</engineerTo>
+<sourcePk>76EAE953-4238-B3C9-6AE9-0FB78C130039</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8971674A-5EA4-FB1D-80CB-8989881781A6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>11FCCC71-1B4D-AE5F-7564-A9E08B1153F4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
