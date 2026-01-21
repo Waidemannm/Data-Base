@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RHSTU-MODELER" id="2D5966DB-5D2E-7EC4-548F-459E5289437D" version="3.5">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:10:52 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2D5966DB-5D2E-7EC4-548F-459E5289437D</designId>
+</OSDM_Design>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9D0085E-21B6-4E81-7D25-5E109125FE14" name="T_RHSTU_PACIENTE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:14:41 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_paciente" id="9DFE583D-5C83-5DE9-B1BB-28B842FC4786">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:14:53 UTC</createdTime>
+<comment><![CDATA[Código identificador do paciente]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="20F7EE7C-39DD-1B32-3F3F-BB6797B49E8F">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:15:06 UTC</createdTime>
+<comment><![CDATA[Nome completo do paciente]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fl_sexo_biologico" id="FB86F87B-CA66-3374-905D-79C69F2B3974">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:15:18 UTC</createdTime>
+<comment><![CDATA[Sexo biológico (M = masculino, F = feminino)]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="F7E5BCC3-45A3-52E4-B27D-0A274D962597">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:16:59 UTC</createdTime>
+<comment><![CDATA[	Data de nascimento do paciente]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_convenio" id="8A9919D4-108D-24A7-2405-0D1B1CB36C9A">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:17:14 UTC</createdTime>
+<comment><![CDATA[Nome do convênio de saúde (se houver)]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_carteira_convenio" id="BCA5E230-8701-04B9-844D-A8CEB5FDFC58">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:17:38 UTC</createdTime>
+<comment><![CDATA[Número da carteirinha do convênio]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B45D04E-F2BC-BD45-0E90-158F01EBEE8F" name="T_RHSTU_PACIENTE PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:15:05 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DFE583D-5C83-5DE9-B1BB-28B842FC4786</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

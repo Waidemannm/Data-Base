@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEC2C337-94AC-7C29-BDC9-E713F7C0F46B" name="T_RHSTU_LOGRADOURO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>EF36AE33-0C04-3207-A42D-300BDBCD0474</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LOGRADOURO" id="30A90430-E2E1-6AF1-BA39-6B5439BDDBBC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir o lograouro, que esta localizado no  cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<generatorID>6AE78D81-1655-3825-3B5F-64B2D9C0E214</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SQ_RHSTU_LOGRADOURO</autoIncrementSequenceName>
+<autoIncrementTriggerName>TG_RHSTU_LOGRADOURO</autoIncrementTriggerName>
+</Column>
+<Column name="ID_BAIRRO" id="3E99E47F-A85D-1849-F630-6E5E7F4382E3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo interno para garantir o cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo interno para garantir o cadastro dos  Bairros da Cidade do Estado do Brasil. Seu conteúdo é obrigatório e único será preenchido automaticamente pelo sistema.]]></commentInRDBMS>
+<generatorID>12209B7E-E199-0F1F-97C5-65EA383E7F01</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="051AA9A8-308C-4F29-1588-185CE63BFCC5" referredColumn="4C8D47CC-8038-1C17-3FAC-9F7D799E7CBB"/>
+</associations>
+</Column>
+<Column name="NM_LOGRADOURO" id="CB823C9A-609A-16DF-1FEE-FC1E56D1CE56">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do lograoduro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do lograoduro. O padrão de armazenmento é  InitCap e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></commentInRDBMS>
+<generatorID>0DEA52C5-ABEF-92D7-C0E9-B1E63FB19C1B</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CEP" id="DF812362-FAB1-E133-F14B-6FB4107EEDF9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o número do CEP do lograoduro. O padrão de armazenmento é  numérico  e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o número do CEP do lograoduro. O padrão de armazenmento é  numérico  e seu conteúdo é obrigatório. Essa tabela já será preenchida pela área responsável. Novas inseções necessitam ser avaladas pelos gestores.]]></commentInRDBMS>
+<generatorID>33FDE320-D02D-D52F-D322-FEDB439A701F</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE32A39B-6E86-1106-B9F4-8063D07E3EE7" name="PK_RHSTU_LOGRADOURO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>CAC38B00-31A4-2DC1-1A57-0768C14386F7</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A90430-E2E1-6AF1-BA39-6B5439BDDBBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E995B60-C6C0-D94D-0691-BEBD04EA967B" name="FK_PKD_BAIRRO_LOGRADOURO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>DBB65F97-DD23-AFDD-4633-4CB296E35174</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E99E47F-A85D-1849-F630-6E5E7F4382E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

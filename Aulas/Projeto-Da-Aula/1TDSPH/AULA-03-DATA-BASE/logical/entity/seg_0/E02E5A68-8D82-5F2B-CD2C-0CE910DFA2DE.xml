@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E02E5A68-8D82-5F2B-CD2C-0CE910DFA2DE" name="T_VB_ESTABELECIMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 11:03:50 UTC</createdTime>
+<ownerDesignName>AULA-03-DATA-BASE</ownerDesignName>
+<engineerTo>
+<item key="142970B1-B5E0-FBC8-16F0-14721AF0358A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_estabelecimento" id="A7C8B720-7024-3B11-E165-903FFCE553D0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:40:52 UTC</createdTime>
+<ownerDesignName>AULA-03-DATA-BASE</ownerDesignName>
+<engineerTo>
+<item key="142970B1-B5E0-FBC8-16F0-14721AF0358A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_razao_social" id="BA936326-6E1B-EB1B-884E-8797A08A5BD9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:47:17 UTC</createdTime>
+<ownerDesignName>AULA-03-DATA-BASE</ownerDesignName>
+<engineerTo>
+<item key="142970B1-B5E0-FBC8-16F0-14721AF0358A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="14D08621-6BAD-41B9-4585-386760EE9829" name="T_VB_ESTABELECIMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 12:42:50 UTC</createdTime>
+<ownerDesignName>AULA-03-DATA-BASE</ownerDesignName>
+<engineerTo>
+<item key="142970B1-B5E0-FBC8-16F0-14721AF0358A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7C8B720-7024-3B11-E165-903FFCE553D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

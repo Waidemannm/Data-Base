@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0347658E-1E38-9D21-340F-E46528F18D4F" name="T_RHSTU_PAGTO_CARTAO_DEBITO">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>B10D899F-B241-F906-3CA1-59612180F10E</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSULTA_FORMA_PAGTO" id="86C71585-8944-4E1D-EF56-DE20209A2968">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>FA16865B-0AA7-51F7-0CBB-72D04120AA02</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A9A672-E8E6-ED20-DB58-ED6C304F31A8" referredColumn="F2E2CCC0-52D3-1867-CADA-8803D1AB0CF0"/>
+</associations>
+</Column>
+<Column name="NR_CARTAO_DEB" id="D4A37891-51E9-8DE8-7170-1AA02ADE76F4">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>E79F41F5-64F6-F5B6-E916-6DCD7D7E8224</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TRANSACAO" id="11E40232-FEC8-CCC7-00A3-900FDB772203">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>7B483F5F-66B7-C03B-1911-591EA5F82B67</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TRANSACAO" id="8E8CD84B-E51D-36D7-270B-DDB8E0C17F6B">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>B4D05E32-B7E2-B5B9-1F00-5A07FC8F49B0</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="972D6FE6-50A4-6899-25EF-BD2885465EAB" name="PK_RHSTU_PAGTO_CARTAO_DEBITO">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>A3183940-BAA7-5071-05F0-01C3531D1C4C</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86C71585-8944-4E1D-EF56-DE20209A2968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E0D4552-9F30-5ADE-E9E2-D76676873901" name="FK_RHSTU_FORMA_PAGTO_DEB">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>CC1CA563-3451-8C6E-5AC0-861841311164</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86C71585-8944-4E1D-EF56-DE20209A2968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

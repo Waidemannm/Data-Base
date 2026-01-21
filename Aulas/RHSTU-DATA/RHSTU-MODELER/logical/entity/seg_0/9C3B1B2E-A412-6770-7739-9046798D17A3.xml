@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C3B1B2E-A412-6770-7739-9046798D17A3" name="T_RHSTU_FORMA_DE_PAGAMENTO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:36:21 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pagamento" id="465E5561-96A3-D459-65F1-BC1F9A60CDE3">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:36:53 UTC</createdTime>
+<comment><![CDATA[Código identificador da forma de pagamento]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_pagamento" id="B2D4F806-FA95-3CA9-AEBF-D24AF1A9D806">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 21:06:14 UTC</createdTime>
+<comment><![CDATA[Tipo de pagamento (ex: Dinheiro, Cartão, Convênio, etc.)]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_carteira_convenio" id="15A5AE41-6318-E36A-86B9-9E5EEC516957">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 21:16:12 UTC</createdTime>
+<comment><![CDATA[Número da carteirinha do convênio (se aplicável)]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_plano_saude" id="A0AEDC51-D570-A8BD-6857-779B5B8AB21A">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 21:16:35 UTC</createdTime>
+<comment><![CDATA[Código do plano de saúde vinculado ao pagamento]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77D47D4B-5A0B-40C0-D0FC-E9A23B2A8F2E" name="T_RHSTU_FORMA_DE_PAGAMENTO PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:37:06 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>465E5561-96A3-D459-65F1-BC1F9A60CDE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

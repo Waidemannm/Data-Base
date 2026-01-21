@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDAD5777-5281-8666-AAB7-D6D61EE740A8" name="T_RHSTU_PAGTO_CARTAO_CREDITO">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>EB1986CC-9396-4267-8360-2E539FECD3CB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSULTA_FORMA_PAGTO" id="59B7C83E-F5E7-B0DA-B11E-58B212B1F601">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>4C35734C-E6A3-8F9C-E5AC-B28EE96139FC</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8DB81B2-9043-CD23-B8D2-DD48982C31F0" referredColumn="F2E2CCC0-52D3-1867-CADA-8803D1AB0CF0"/>
+</associations>
+</Column>
+<Column name="NM_BANDEIRA" id="80C121AA-E285-ABDF-7347-81251E2E75FB">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>BD488515-F696-FB2B-2C25-73015221AEA1</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CARTAO_CRED" id="9A3F7E79-2F16-3AA1-98C7-82B7DCB109F6">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>A054ABF5-AFE7-47F8-D570-C03923168585</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_VENCIMENTO" id="2332443E-163F-D86A-BE03-3D6686598623">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>909A8258-D378-FD9A-E477-52F514CDAC17</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TRANSACAO" id="2F11B6B6-CADC-3D60-485B-2148C1A09ED0">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>48E2F1D0-4251-1E48-33E2-ADEB2FDE12AF</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TRANSACAO" id="8300100F-500C-CD38-B34E-CD55AAFDB446">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>FAD97CEB-2E9B-CAA3-ADD4-8C9D71F08DAB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43856D94-65C7-D60B-9F7B-FA710361FC81" name="PK_RHSTU_PAGTO_CARTAO_CREDITO">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>F49474B8-3F0D-AD3C-939D-D7C8CDA1F531</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B7C83E-F5E7-B0DA-B11E-58B212B1F601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4039F744-9609-29A3-062F-5831E2568772" name="FK_RHSTU_FORMA_PAGTO_CRED">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>B6A65C04-D413-C0AF-A128-0B3FEF514295</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B7C83E-F5E7-B0DA-B11E-58B212B1F601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

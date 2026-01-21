@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D472FBE6-B499-6E49-CA47-712E21A83AAB" containerWithKeyObject="87437753-5639-B8A3-0095-0935CCB5B266" localFKIndex="2F4D226B-025D-4907-96D3-01B48D3305AF" name="FK_PACIENTE_ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>B99331BB-0605-C347-7BB9-BF08521D724D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<referredTableLongName>T_RHSTU_PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC07D88D-A207-BD01-15BE-06C09C57E7CB</referredTableID>
+<keyObject>31848977-DC81-7ED3-5509-51DF88D8B6A9</keyObject>
+<referredKeyID>31848977-DC81-7ED3-5509-51DF88D8B6A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PACIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

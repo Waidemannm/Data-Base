@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6A5E4B9-8E83-7272-D33A-5255A84143A7" name="T_RHSTU_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>31723517-2989-D028-7B9E-D4C226A4767D</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UNID_HOSPITAL" id="68E6FA03-B24C-5574-D561-B289949247D6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>B6C488CB-AE82-A793-0536-0FCACEBB3861</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A1D3B35-E29B-C258-061C-872DCEB8C852" referredColumn="1FD5BEC6-7F9B-E8BD-13EC-6FA9EDC82C82"/>
+</associations>
+</Column>
+<Column name="NR_CONSULTA" id="3157AEB8-958E-57C0-3701-24763415F945">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>4DC2BBD4-5844-F984-AA0B-B83576D7F211</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="42F8ABBE-CAAC-4E1C-6155-11A5E374E673">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>AE16BCCF-B954-6824-F7DB-300D2318D9B2</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82321B50-1FB9-376F-FDD8-1D63738B5F59" referredColumn="FE0F2E30-FCA5-7F65-2D36-35D99C9A95BF"/>
+</associations>
+</Column>
+<Column name="CD_MEDICO" id="6F8EA746-2EC8-CB4D-8A2B-933A23883828">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>4ADC3A8B-EDCB-8300-F9D5-2595EE930581</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFEB9A78-89F9-22BF-5D17-1E64AEA92E9A" referredColumn="62B93775-0A74-A934-BAF9-E460DF57DA68"/>
+</associations>
+</Column>
+<Column name="DT_HR_CONSULTA" id="49A1C6E5-B7A4-4C1A-CF77-B428E1825655">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>E984FC82-E115-71C8-5FDA-85BB1A35804F</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CONSULTORIO" id="4ED115F3-395A-3EF3-24D1-2EF56060E65F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>27D923EF-8051-DAC9-6DAC-2BE39E00AAB0</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EBD87C3-F133-55C6-F006-52265537CC83" name="PK_RHSTU_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>94012AC5-2823-C905-42C8-C02D1BAAFCE4</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3157AEB8-958E-57C0-3701-24763415F945"/>
+<colUsage columnID="68E6FA03-B24C-5574-D561-B289949247D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42B8522B-F881-FE0A-5631-0BEB241C5A11" name="FK_RHSTU_UNID_HOSP_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>A13A1EBB-693F-9AEF-C9E5-3E59D154F9D3</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68E6FA03-B24C-5574-D561-B289949247D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67FB2DBE-995A-2257-6FFB-BE7919671607" name="FK_STU_MED_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>D2E39926-C7CB-40C3-CCFE-0A79C9A7B3BB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F8EA746-2EC8-CB4D-8A2B-933A23883828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A4FC66A-9CBD-3CE1-A407-4AE6F8DB6530" name="FK_STU_PAC_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-08-12 11:14:44 UTC</createdTime>
+<generatorID>911D582F-E5D9-B53A-08A1-2336487045C2</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42F8ABBE-CAAC-4E1C-6155-11A5E374E673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

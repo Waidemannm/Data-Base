@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_FORMA_PAGTO_CRED" directorySegmentName="seg_0" id="B6A65C04-D413-C0AF-A128-0B3FEF514295">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:29:27 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>668CF5F0-C569-ACDC-0D79-CEF91E54611E</sourcePk>
+<arc>17D15106-23B2-88AD-C179-C5AF79559CFE</arc>
+<dominantRole>59D118B8-7019-669A-9873-2AC021E05E28</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59D118B8-7019-669A-9873-2AC021E05E28</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EB1986CC-9396-4267-8360-2E539FECD3CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

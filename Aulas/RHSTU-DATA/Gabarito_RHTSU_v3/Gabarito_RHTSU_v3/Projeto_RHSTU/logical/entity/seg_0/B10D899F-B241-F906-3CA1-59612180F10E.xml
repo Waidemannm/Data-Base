@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B10D899F-B241-F906-3CA1-59612180F10E" name="T_RHSTU_PAGTO_CARTAO_DEBITO">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:16:46 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA_FORMA_PAGTO" id="FA16865B-0AA7-51F7-0CBB-72D04120AA02">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:30:57 UTC</createdTime>
+<generatorID>CC1CA563-3451-8C6E-5AC0-861841311164</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CARTAO_DEB" id="E79F41F5-64F6-F5B6-E916-6DCD7D7E8224">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:18:00 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRANSACAO" id="7B483F5F-66B7-C03B-1911-591EA5F82B67">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:18:58 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TRANSACAO" id="B4D05E32-B7E2-B5B9-1F00-5A07FC8F49B0">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:19:40 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3183940-BAA7-5071-05F0-01C3531D1C4C" name="PK_RHSTU_PAGTO_CARTAO_DEBITO">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:39:41 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>CC1CA563-3451-8C6E-5AC0-861841311164,CC1CA563-3451-8C6E-5AC0-861841311164</newElementsIDs>
+<usedAttributes>
+<attributeRef>FA16865B-0AA7-51F7-0CBB-72D04120AA02</attributeRef>
+<attributeRef>FA16865B-0AA7-51F7-0CBB-72D04120AA02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

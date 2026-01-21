@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04A9A672-E8E6-ED20-DB58-ED6C304F31A8" containerWithKeyObject="0347658E-1E38-9D21-340F-E46528F18D4F" localFKIndex="0E0D4552-9F30-5ADE-E9E2-D76676873901" name="FK_RHSTU_FORMA_PAGTO_DEB">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>CC1CA563-3451-8C6E-5AC0-861841311164</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<referredTableLongName>T_RHSTU_CONSULTA_FORMA_PAGTO</referredTableLongName>
+<arc>E8CCF24C-40BE-F1D5-896C-B531600B0601</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7383827C-DED9-4E46-977E-5C7EA640B9F6</referredTableID>
+<keyObject>82A3333A-4FCB-C46E-8578-028D71B3CCCB</keyObject>
+<referredKeyID>82A3333A-4FCB-C46E-8578-028D71B3CCCB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CONSULTA_FORMA_PAGTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

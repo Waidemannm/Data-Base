@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1635865E-7AFA-3F9C-1855-7140C05B322A" name="T_RHSTU_CONSULTA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:13:11 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_consulta" id="5CC23020-3286-C180-D4EF-CA26B2FF71A3">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:13:26 UTC</createdTime>
+<comment><![CDATA[Código identificador da consulta]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_medico" id="C4E2868A-4403-FED8-E6C0-33582D48046F">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:19:18 UTC</createdTime>
+<comment><![CDATA[Código do médico responsável pela consulta]]></comment>
+<generatorID>A3EE38F3-9F3F-61B5-0DAD-884CD39B795A</generatorID>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<referedAttribute>ACAA016E-2B07-7F99-6D21-8D08C7E1FC44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_paciente" id="C53207CC-5627-F0E5-895D-7D1EACF97F2A">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:19:24 UTC</createdTime>
+<comment><![CDATA[Código do paciente atendido]]></comment>
+<generatorID>F6C772D6-935C-6ECA-C485-1AE02A5DD660</generatorID>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<referedAttribute>9DFE583D-5C83-5DE9-B1BB-28B842FC4786</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_unidade" id="C6D33BCD-6A71-6E2E-9DBB-E43ABC8DA70E">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:50:32 UTC</createdTime>
+<comment><![CDATA[Código da unidade onde ocorreu a consulta]]></comment>
+<generatorID>6CC1CB21-2A6D-3A7B-B94F-86D6320F6E32</generatorID>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<referedAttribute>04F31251-3C32-9DC5-C18A-FAE4A53F1BF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pagamento" id="E216EF89-06DE-594D-EFC2-725362ED5D4E">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 21:13:12 UTC</createdTime>
+<comment><![CDATA[Código da forma de pagamento usada]]></comment>
+<generatorID>995975E9-543E-1891-B719-C8DB8A8056B5</generatorID>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<referedAttribute>465E5561-96A3-D459-65F1-BC1F9A60CDE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_consulta" id="204499B3-921E-CE6C-836B-4B71DFE25C3C">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:13:45 UTC</createdTime>
+<comment><![CDATA[Data e hora da consulta]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_consultorio" id="2DC2A3E0-B634-DA6E-6D71-2B69B1EDF6EC">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:14:02 UTC</createdTime>
+<comment><![CDATA[Número do consultório onde a consulta foi realizada]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A59D775-588C-C2EF-CAD8-CB14EF751EF3" name="T_RHSTU_CONSULTA PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:13:39 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CC23020-3286-C180-D4EF-CA26B2FF71A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

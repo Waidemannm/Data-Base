@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C611FF9-40C7-8394-6F25-087EE80AB896" name="T_RHSTU_UNIDADE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:39:08 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_unidade" id="04F31251-3C32-9DC5-C18A-FAE4A53F1BF0">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:39:31 UTC</createdTime>
+<comment><![CDATA[Código identificador da unidade]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="820E3D25-912B-B7C1-4BC0-0FEAC4E17EFE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:43:53 UTC</createdTime>
+<comment><![CDATA[CEP da unidade (somente números)]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_logradouro" id="27486916-2CBF-8385-1F9D-1C8D6C5F2B6E">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:44:22 UTC</createdTime>
+<comment><![CDATA[Nome da rua, avenida, etc.]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="9104B4B8-96CA-45CE-A710-544F0BFDDA56">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:44:45 UTC</createdTime>
+<comment><![CDATA[Número do endereço]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento_endereco" id="2E542FC4-35F2-C45A-7D63-A0672F85EB38">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:45:10 UTC</createdTime>
+<comment><![CDATA[Complemento do endereço]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ponto_deReferencia" id="60C957E0-E187-2B22-F976-263A56B94892">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:46:14 UTC</createdTime>
+<comment><![CDATA[Ponto de referência para localização]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="C015FB75-18D1-64B2-DD46-E5E23A24DB46">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:46:45 UTC</createdTime>
+<comment><![CDATA[Nome do bairro]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="AE743F2C-940F-714E-94DC-635663DB6FF9">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:47:05 UTC</createdTime>
+<comment><![CDATA[Nome da cidade]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="60783432-B81D-DF90-E753-CD956FAC3906">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:47:50 UTC</createdTime>
+<comment><![CDATA[Nome completo do estado]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="E61B4EFA-48B1-AAD5-FAD9-5829F85B5DE3">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:48:14 UTC</createdTime>
+<comment><![CDATA[Sigla do estado (UF)]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E37EBE2-A004-DCE6-3208-810B972B8DCC" name="T_RHSTUU_UNIDADE PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:39:37 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04F31251-3C32-9DC5-C18A-FAE4A53F1BF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

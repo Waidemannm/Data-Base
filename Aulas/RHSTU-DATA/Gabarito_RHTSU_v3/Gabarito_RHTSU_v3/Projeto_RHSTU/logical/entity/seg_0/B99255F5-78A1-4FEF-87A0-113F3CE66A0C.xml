@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B99255F5-78A1-4FEF-87A0-113F3CE66A0C" name="T_RHSTU_PAGTO_PIX">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:20:57 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA_FORMA_PAGTO" id="82B89F2B-7103-0527-20D4-A4C461227C84">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:32:29 UTC</createdTime>
+<generatorID>83AEF5B5-A1A2-C523-BF42-A10A26D767AF</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRANSACAO" id="01DE8985-5CE1-35E2-880A-03438576B95A">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:21:52 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TRANSACAO" id="4EC97CAE-1476-0BDA-4E43-514A754F5FAD">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:22:12 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PIX" id="34D65420-26CE-B233-56EA-712AC220A4BC">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:22:46 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BDC8E5D-5330-EEDC-AC3F-D22DF0C720FE" name="PK_RHSTU_PAGTO_PIX">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:42:40 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>83AEF5B5-A1A2-C523-BF42-A10A26D767AF,83AEF5B5-A1A2-C523-BF42-A10A26D767AF</newElementsIDs>
+<usedAttributes>
+<attributeRef>82B89F2B-7103-0527-20D4-A4C461227C84</attributeRef>
+<attributeRef>82B89F2B-7103-0527-20D4-A4C461227C84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

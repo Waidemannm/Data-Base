@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7267B620-63CD-1578-0B31-AF3949CC5F2B" name="T_RHSTU_MEDICO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:11:22 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_medico" id="ACAA016E-2B07-7F99-6D21-8D08C7E1FC44">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:11:45 UTC</createdTime>
+<comment><![CDATA[Código identificador do médico]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_medico" id="179A392A-EF73-255F-FB5B-8099D161BBEE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:12:09 UTC</createdTime>
+<comment><![CDATA[Nome completo do médico]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_crm" id="EB7D5D2D-1556-55E7-4D05-3A9FB8149DB1">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:12:34 UTC</createdTime>
+<comment><![CDATA[Número do registro profissional (CRM)]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_especialidade" id="904E20C5-8A13-4D0E-3454-2D7156ACED3A">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:12:48 UTC</createdTime>
+<comment><![CDATA[Especialidade médica do profissional]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4C8264A-B121-CEBC-179F-92C609F4C95D" name="T_RHSTU_MEDICO PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:12:07 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACAA016E-2B07-7F99-6D21-8D08C7E1FC44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

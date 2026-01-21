@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_PAGTO_PLANO_SAUDE" directorySegmentName="seg_0" id="E4A8A8F0-2E02-BE1A-FB84-ECB2591BC82F">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:24:59 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>4B649FE4-7304-9374-E5C9-3807E63ED774</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CAE63D5C-FA46-DA05-291D-441B59B3C713</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>59FE915D-306E-DD8D-468B-B899D6C8EAAC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

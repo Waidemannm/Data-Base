@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0024D0D5-F6F5-B648-20F9-871EC604374A" name="T_RHSTU_PLANO_SAUDE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_plano_saude" id="27428F50-377C-131F-45EE-CDC298E6CDEF">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do plano de saúde. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>E40D7012-4CE7-F19C-25A9-4951C8D0B3B5</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_razao_social" id="4EE27107-87B0-45B5-B1A1-48FF0D3253E3">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber Razão Social do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber Razão Social do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>3BD6BF87-0C20-C94A-70E3-02554EC05C3C</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fantasia_plano_de_saude" id="2A6C3882-3BC3-1DDB-80EB-BB05EA63CFD8">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome Fantasia do plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome Fantasia do plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>B179C357-52FE-133B-9AE7-60FFFEAD01BA</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_plano_saude" id="BF41C3F2-742B-940F-8942-B412A10245B1">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição do  plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição do  plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>975427DC-B8E4-13C3-A220-10810268B583</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="FD69541D-B1E7-CAE2-FF56-EC657730FFA8">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o numero do CNPJ do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o numero do CNPJ do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>E5F89278-8A88-476E-BC8E-B1C16BE37BEE</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_contato" id="059A74E9-0263-1C13-15CE-CF9D01753AF8">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome  do contato dentro do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome  do contato dentro do plano de saúde aceito na RHSTU. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>0C21C6E8-AA7C-6AFE-0CCA-6FB5993DCBB5</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddi" id="B67A8D0B-8D57-92BB-2AD1-F2D06C94F9D5">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Código do país (DDI) para contato telefônico]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber o número do DDI do telefone  para contato no plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>C8041A5C-5731-3EF8-89A7-D14E4566B84B</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="258F4681-6B40-2E66-261F-D25604C02389">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Código de área (DDD)]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do DDD do telefone para contato no plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>46D63C97-8BD8-2E42-8B4F-A3126740F55A</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="31635CE6-64A6-91D5-CBFA-44BD1200FEA1">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber os dados do telefone para contato no plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber os dados do telefone para contato no plano de saúde aceito na RHSTU. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<importedID>61D1993B-8D1D-CCD9-5EE6-924B2090D5CF</importedID>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3375D8E3-0A4D-3C0F-967A-DBCACD788D2B" name="PK_RHSTU_PLANO_SAUDE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:40 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27428F50-377C-131F-45EE-CDC298E6CDEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

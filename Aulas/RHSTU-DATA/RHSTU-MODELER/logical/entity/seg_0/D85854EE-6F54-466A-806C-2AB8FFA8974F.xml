@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D85854EE-6F54-466A-806C-2AB8FFA8974F" name="T_RHSTU_PACIENTE_PLANO_SAUDE">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:21:39 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_paciente" id="0D071912-F50C-5145-8FC5-E4D13EEEAEA5">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:22:24 UTC</createdTime>
+<comment><![CDATA[Código do paciente]]></comment>
+<generatorID>B40EED5E-CE88-B103-1457-074128147EFD</generatorID>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<referedAttribute>9DFE583D-5C83-5DE9-B1BB-28B842FC4786</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_plano_saude" id="887A1083-B56F-C7E9-030D-D02E8363687D">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:34:20 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>0E82D937-2B58-2AAB-14ED-A519D1CCD29B</generatorID>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<referedAttribute>27428F50-377C-131F-45EE-CDC298E6CDEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="90235A87-8A64-15E4-48F1-5E7DB51ECA46">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:31:31 UTC</createdTime>
+<comment><![CDATA[Data de início da cobertura pelo plano]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="de_fim" id="2B102224-C825-0D9B-6596-FE939FA068B0">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:32:00 UTC</createdTime>
+<comment><![CDATA[Data de término da cobertura (pode ser nula se ativa)]]></comment>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2C8FBEE-5103-4947-668B-C528FC9C130A" name="T_RHSTU_PACIENTE_PLANO_SAUDE PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-04-22 20:22:48 UTC</createdTime>
+<ownerDesignName>RHSTU-MODELER</ownerDesignName>
+<engineerTo>
+<item key="F3DF7320-0154-E5FE-C7EF-84FE120DAECD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D071912-F50C-5145-8FC5-E4D13EEEAEA5</attributeRef>
+<attributeRef>90235A87-8A64-15E4-48F1-5E7DB51ECA46</attributeRef>
+<attributeRef>887A1083-B56F-C7E9-030D-D02E8363687D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

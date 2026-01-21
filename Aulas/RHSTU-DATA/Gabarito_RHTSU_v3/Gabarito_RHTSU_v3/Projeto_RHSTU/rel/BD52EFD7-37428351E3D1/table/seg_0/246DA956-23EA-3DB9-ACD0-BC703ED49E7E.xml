@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="246DA956-23EA-3DB9-ACD0-BC703ED49E7E" name="T_RHSTU_PAGTO_PLANO_SAUDE">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>59FE915D-306E-DD8D-468B-B899D6C8EAAC</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSULTA_FORMA_PAGTO" id="1A2FCF41-C83A-4BC2-9008-84910FC0C2CE">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>2365EF3C-768C-5FD0-C14C-D30F5A856430</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40D52C80-AA55-0F27-5676-EE8D461A6529" referredColumn="F2E2CCC0-52D3-1867-CADA-8803D1AB0CF0"/>
+</associations>
+</Column>
+<Column name="ID_PACIENTE_PS" id="701F8FEF-5041-4673-DC1F-B6583BCDBA5D">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>4815592A-F334-A9AC-35E4-D6478B7BAD6A</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5031ED9A-C8FE-AB23-8773-A0BF655829CE" referredColumn="8E04BAC9-84C1-6334-645A-DCB5BF2C0C2C"/>
+</associations>
+</Column>
+<Column name="NR_CARTEIRA_PS" id="964FB39F-FA51-D7D7-6587-00DF6926182D">
+<createdBy>willi</createdBy>
+<createdTime>2025-05-06 04:50:20 UTC</createdTime>
+<generatorID>DFC21E18-B5D6-474A-537D-13D57546E1EA</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TRANSACAO" id="CFE0B741-B671-962D-BCB8-CADD37F1CD88">
+<createdBy>willi</createdBy>
+<createdTime>2025-05-06 04:50:20 UTC</createdTime>
+<generatorID>4C9C9F58-5D71-75FE-8E8F-ED76CC0BEA69</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TRANSACAO" id="740751F2-AF06-FCA7-D3EE-67B07AE50BE0">
+<createdBy>willi</createdBy>
+<createdTime>2025-05-06 04:50:20 UTC</createdTime>
+<generatorID>1C43FD0E-0FFA-C372-C439-1A9A6C842564</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2F4C29E-5A00-1062-D942-549D217B0701" name="PK_RHSTU_PAGTO_PLANO_SAUDE">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>DA3C088B-1684-59ED-B0AC-47A6A33CBB25</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A2FCF41-C83A-4BC2-9008-84910FC0C2CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE33EFCA-369B-7B00-B7D8-0849BD030175" name="FK_RHSTU_FORMA_PAGTO_PLANO_SAUDE">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>E9274541-F3A5-26BB-BA48-FAEA74ACEEDB</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A2FCF41-C83A-4BC2-9008-84910FC0C2CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF3F6A3E-6B80-E2AD-B988-ED80D92C64BF" name="FK_RHSTU_PAGTO_PLANO_SAUDE">
+<createdBy>willi</createdBy>
+<createdTime>2023-05-01 16:44:03 UTC</createdTime>
+<generatorID>E4A8A8F0-2E02-BE1A-FB84-ECB2591BC82F</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="701F8FEF-5041-4673-DC1F-B6583BCDBA5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
