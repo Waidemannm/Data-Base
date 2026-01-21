@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C928F776-D9F0-0CAB-2173-C5696CF7C4C9" name="T_WMD_RESPOSTA_USUARIO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>65C0B5D8-1930-A658-FECF-5124534C6E24</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RESPOSTA" id="7727D4C2-C1F6-3DD4-D229-46B04952F39A">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>487AB2A5-C9B6-4F05-EE89-AAC265CB2D6F</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="4D7550FA-6851-E5E5-AA78-187664F9026E">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>00FE1D99-B6ED-F5FA-F445-477C2B040444</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A4A68B7-8F6F-74E2-B60E-AD08214ECFC5" referredColumn="16C3664C-F007-F123-182B-1D7DE238564A"/>
+</associations>
+</Column>
+<Column name="ID_HABITO" id="5E7896E5-7129-2F16-D1FE-0F1344476D4B">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>73A46DB7-DA4C-3C0A-01A7-0994AC8EDE89</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="124A4126-ED20-94BA-F6C0-34FD617D0F6C" referredColumn="58C0A71F-037B-96F4-4127-476560C744AB"/>
+</associations>
+</Column>
+<Column name="VL_RESPOSTA" id="0EC1BE16-5855-4EBE-2D9D-41BF46660F51">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>4D59A81A-1083-DED2-AFD9-C5E4E88C8AB4</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="DS_OBSERVACOES" id="1A1AFF3D-BD79-84C5-AF71-E690086DEC4B">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>AF72F5DA-E638-DBC0-2091-62BD43320BA5</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89D4F917-2DFC-DEAD-5BB9-DB8176EDF1DF" name="T_WMD_RESPOSTAS_USUARIOS_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>BD40A049-47ED-1357-E065-8E1A95B08AE0</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7727D4C2-C1F6-3DD4-D229-46B04952F39A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B82EAFB-9380-9E22-B1F5-6BD713EE05D6" name="Relation_1">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>033B3D7D-D70F-5E53-2FCF-A0CDC583378C</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D7550FA-6851-E5E5-AA78-187664F9026E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A61AD1D1-949F-3643-D0F4-E2C649EF1AB9" name="Relation_2">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>301843B1-A265-8387-C28B-888F0C20166F</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E7896E5-7129-2F16-D1FE-0F1344476D4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

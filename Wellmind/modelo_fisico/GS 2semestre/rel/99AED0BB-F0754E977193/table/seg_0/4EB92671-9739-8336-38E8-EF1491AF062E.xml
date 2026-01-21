@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EB92671-9739-8336-38E8-EF1491AF062E" name="T_WMD_HABITO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>CCA677DB-8BD3-89AD-821B-68F81112358D</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HABITO" id="58C0A71F-037B-96F4-4127-476560C744AB">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>341A04E4-5A0E-27BF-7A02-8FF4DC55DC10</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_TIPO" id="66769C7B-C96F-B072-BD24-00A2D34A66DF">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>FEB026CD-DF88-5A67-5E15-2066F49EE739</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="ALIMENTAÇÃO" description=""/>
+<valueDef value="ESTRESSE E FOCO" description=""/>
+<valueDef value="HIDRATAÇÃO" description=""/>
+<valueDef value="HUMOR E ENERGIA" description=""/>
+<valueDef value="OSERVAÇÕES" description=""/>
+<valueDef value="SONO" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_HABITO" id="1A6222C2-12A5-664E-DEDB-3CE1BFFCCA25">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>F95CE60C-4537-1A32-0558-83C17DD379E4</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_UNIDADE" id="C77D6C46-E1F8-E2A0-352E-659BDE727A62">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>91A09703-2D2E-268E-D028-719C88AE9C03</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="ESCALA" description=""/>
+<valueDef value="HORAS" description=""/>
+<valueDef value="LITROS" description=""/>
+<valueDef value="REFEIÇÕES" description=""/>
+<valueDef value="TEXTO LIVRE" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3789CC7E-828F-E52D-0D05-EC8352CBB4AC" name="T_WND_HABITOS_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>E99AD682-1FA4-7EB6-FC56-19FB604EA9C6</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58C0A71F-037B-96F4-4127-476560C744AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

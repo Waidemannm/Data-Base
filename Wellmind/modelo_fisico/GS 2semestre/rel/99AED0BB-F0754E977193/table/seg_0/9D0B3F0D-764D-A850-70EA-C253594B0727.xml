@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D0B3F0D-764D-A850-70EA-C253594B0727" name="T_WMD_USUARIO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>1A62F316-CF11-6393-8A62-579C3A602614</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="16C3664C-F007-F123-182B-1D7DE238564A">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>F5BE7AA0-B8C4-D277-9836-4AA91432587B</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_EMAIL" id="D4152EDD-E2F1-0A17-EFBC-2A7985BEAE78">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>C8439D08-B1B5-AD62-D173-2710479E79A2</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<constraintName>UK_USUARIOS_EMAIL</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<defaultValue>NM_EMAIL</defaultValue>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="C0EDA60A-F8FE-D186-AC68-9C9A14EE1E7D">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>1090A851-56D0-75D5-65B3-B8F9D22F78BA</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_IDADE" id="7A26508F-191F-631E-BC42-60E8E9F4C7A1">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>AA2C86EC-BF7C-5DD0-D340-03ED118EE4B9</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_GENERO" id="46B1282B-8D44-5BF6-C00B-061BDB24A1F6">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>1300D11B-2F4A-3BBF-D6A3-234489FE25BC</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="FEMININO" description=""/>
+<valueDef value="MASCULINO" description=""/>
+<valueDef value="OUTRO" description=""/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC9CF384-B777-6236-1E76-610366F5CA13" name="T_WMD_USUARIOS_PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>404D633C-5F21-AAA5-CC76-77389ABF3586</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16C3664C-F007-F123-182B-1D7DE238564A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30ECA9C0-D8DA-CCF2-7754-44EC90472994" name="UK_USUARIOS_EMAIL">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:22:33 UTC</createdTime>
+<generatorID>E216B037-3672-1D9F-F54F-19D563980F20</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4152EDD-E2F1-0A17-EFBC-2A7985BEAE78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

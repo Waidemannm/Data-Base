@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A62F316-CF11-6393-8A62-579C3A602614" name="T_WMD_USUARIO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 14:16:27 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_USUARIO" id="F5BE7AA0-B8C4-D277-9836-4AA91432587B">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 14:37:11 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_EMAIL" id="C8439D08-B1B5-AD62-D173-2710479E79A2">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 14:42:47 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<constraintName>UK_USUARIOS_EMAIL</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<defaultValue>NM_EMAIL</defaultValue>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_USUARIO" id="1090A851-56D0-75D5-65B3-B8F9D22F78BA">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 14:38:33 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_IDADE" id="AA2C86EC-BF7C-5DD0-D340-03ED118EE4B9">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 14:39:35 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_GENERO" id="1300D11B-2F4A-3BBF-D6A3-234489FE25BC">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 14:41:02 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="FEMININO" description=""/>
+<valueDef value="MASCULINO" description=""/>
+<valueDef value="OUTRO" description=""/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="404D633C-5F21-AAA5-CC76-77389ABF3586" name="T_WMD_USUARIOS PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 14:37:52 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5BE7AA0-B8C4-D277-9836-4AA91432587B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E216B037-3672-1D9F-F54F-19D563980F20" name="UK_USUARIOS_EMAIL">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 15:01:11 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="false"/>
+</engineerTo>
+<newElementsIDs>C8439D08-B1B5-AD62-D173-2710479E79A2</newElementsIDs>
+<usedAttributes>
+<attributeRef>C8439D08-B1B5-AD62-D173-2710479E79A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

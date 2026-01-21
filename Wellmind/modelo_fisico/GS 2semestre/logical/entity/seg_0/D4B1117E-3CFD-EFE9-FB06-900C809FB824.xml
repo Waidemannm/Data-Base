@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4B1117E-3CFD-EFE9-FB06-900C809FB824" name="T_WMD_FEEDBACK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:07:25 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FEEDBACK" id="ACF19B1A-B97B-4F8D-3DF8-25392A9003B8">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:07:40 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="E043BAF5-947D-DE31-658F-8F82EA1D61BB">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:17:10 UTC</createdTime>
+<generatorID>551F5C6B-2D7B-66F1-BA18-0F891F82ACED</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<referedAttribute>F5BE7AA0-B8C4-D277-9836-4AA91432587B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_MENSAGEM" id="DC036EE0-2C7F-752C-7F94-E7D49819AC5E">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:08:28 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="351277A2-3C73-1B3F-7777-5C13096839D2" name="T_WMD_FEEDBACKS PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:07:53 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACF19B1A-B97B-4F8D-3DF8-25392A9003B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

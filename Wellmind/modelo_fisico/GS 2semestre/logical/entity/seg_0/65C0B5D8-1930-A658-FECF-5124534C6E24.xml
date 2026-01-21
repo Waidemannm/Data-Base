@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65C0B5D8-1930-A658-FECF-5124534C6E24" name="T_WMD_RESPOSTA_USUARIO">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:04:26 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_RESPOSTA" id="487AB2A5-C9B6-4F05-EE89-AAC265CB2D6F">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:04:50 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="00FE1D99-B6ED-F5FA-F445-477C2B040444">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:16:47 UTC</createdTime>
+<generatorID>033B3D7D-D70F-5E53-2FCF-A0CDC583378C</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<referedAttribute>F5BE7AA0-B8C4-D277-9836-4AA91432587B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_HABITO" id="73A46DB7-DA4C-3C0A-01A7-0994AC8EDE89">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:16:54 UTC</createdTime>
+<generatorID>301843B1-A265-8387-C28B-888F0C20166F</generatorID>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<referedAttribute>341A04E4-5A0E-27BF-7A02-8FF4DC55DC10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_RESPOSTA" id="4D59A81A-1083-DED2-AFD9-C5E4E88C8AB4">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:05:02 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="DS_OBSERVACOES" id="AF72F5DA-E638-DBC0-2091-62BD43320BA5">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:05:47 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD40A049-47ED-1357-E065-8E1A95B08AE0" name="T_WMD_RESPOSTAS_USUARIOS PK">
+<createdBy>jrmol</createdBy>
+<createdTime>2025-11-13 17:04:58 UTC</createdTime>
+<ownerDesignName>GS 2semestre</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="99AED0BB-FC7F-16DC-A24D-F0754E977193" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>487AB2A5-C9B6-4F05-EE89-AAC265CB2D6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
